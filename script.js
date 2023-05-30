@@ -50,9 +50,9 @@ searchBtn.addEventListener("click", () => {
   checkWeather(search.value);
 });
 // it will search when you will enter the press key button
-search.addEventListener("keyup", (event) => {
-  if (event.code === "Enter") {
-    event.preventDefault();
-    checkWeather(search.value);
-  }
-});
+// search.addEventListener("keyup", (event) => {
+//   if (event.code === "Enter") {
+//     event.preventDefault();
+//     checkWeather(search.value);
+//   }
+// });
