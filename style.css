@@ -9,7 +9,8 @@ html {
 }
 .weather_app {
   height: 100vh;
-  background: rgb(8, 3, 17);
+  /* background: rgb(8, 3, 17); */
+  background: linear-gradient(160deg, #ff9daa, #ea66f7);
   /* position: relative; */
   display: flex;
   justify-content: center;
@@ -36,6 +37,7 @@ html {
   padding: 1rem 2.5rem;
   border-radius: 3rem;
   font-weight: bold;
+  font-size: 1.3rem;
   color: gray;
   box-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0, 0.2);
 }
@@ -95,4 +97,19 @@ html {
 }
 .col:last-child {
   margin-left: 5rem;
+}
+
+.weather {
+  display: none;
+}
+.error {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 6rem;
+  margin-top: 1.5rem;
+  background: linear-gradient(to right, #4e0652, #a80d94, #ff00dd);
+  color: transparent;
+  -webkit-background-clip: text;
+  display: none;
 }
