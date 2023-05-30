@@ -113,3 +113,14 @@ html {
   -webkit-background-clip: text;
   display: none;
 }
+.error2 {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 6rem;
+  margin-top: 1.5rem;
+  background: linear-gradient(to right, #4e0652, #a80d94, #ff00dd);
+  color: transparent;
+  -webkit-background-clip: text;
+  display: none;
+}
